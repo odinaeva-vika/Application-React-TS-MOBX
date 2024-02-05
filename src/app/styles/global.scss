@@ -1,3 +1,21 @@
+@font-face {
+  font-family: Segoe UI;
+  font-display: swap;
+  src: url(../fonts/Segoe-UI-Regular.woff2) format("woff2"),
+    url(../fonts/Segoe-UI-Regular.woff2) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Segoe UI;
+  font-display: swap;
+  src: url(../fonts/Segoe-UI-Bold.woff2) format("woff2"),
+    url(../fonts/Segoe-UI-Bold.woff2) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 html,
 body {
   height: 100%;
