@@ -1,0 +1,31 @@
+.nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__link {
+  padding: 9px 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  letter-spacing: -0.12px;
+  font-size: 17px;
+  font-weight: 400;
+  &:hover {
+    transition: all 0.3s ease;
+    background-color: #e8eaed;
+  }
+
+  & p {
+    @media (max-width: 630px) {
+      display: none;
+    }
+  }
+}
+
+.active {
+  font-weight: 500;
+  color: #4e8ff5;
+  background-color: #e8eaed;
+}
