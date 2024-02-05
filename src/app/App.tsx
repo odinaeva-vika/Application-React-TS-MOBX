@@ -9,7 +9,6 @@ const App = () => {
   return (
     <div className="wrapper">
       <Header />
-
       <main className="main">
         <div className="container">
           <div className="main__inner">
@@ -18,8 +17,6 @@ const App = () => {
           </div>
         </div>
       </main>
-
-      {/* <footer></footer> */}
     </div>
   );
 };
