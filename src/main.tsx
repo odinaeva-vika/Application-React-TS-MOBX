@@ -10,7 +10,7 @@ import App from "./app/App";
 }); */
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
+  <BrowserRouter basename="Application-React-TS-MOBX/">
     <App />
   </BrowserRouter>
 );
