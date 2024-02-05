@@ -1,5 +1,5 @@
 export const PATHS = {
-  HOME: "/Application-React-TS-MOBX",
+  HOME: "/",
   ROLES: "/roles",
   NEWS: "/news",
   FAVORITE: "/favorite",
