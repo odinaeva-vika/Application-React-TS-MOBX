@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://odinaeva-vika.github.io/Application-React-TS-MOBX",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
