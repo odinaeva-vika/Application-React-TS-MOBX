@@ -3,11 +3,12 @@ import styles from "./styles.module.scss";
 import Logo from "../../app/assets/logo.svg";
 import Search from "../../feuteres/Search";
 import { Link, useLocation } from "react-router-dom";
+import { PATHS } from "../../helpers/constants";
 
 const Header: FC = () => {
   const location = useLocation();
 
-  const isNewsPage = location.pathname === "/news";
+  const isNewsPage = location.pathname === PATHS.NEWS;
 
   return (
     <header className={styles.header}>
