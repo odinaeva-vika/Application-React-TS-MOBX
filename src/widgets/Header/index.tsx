@@ -14,7 +14,7 @@ const Header: FC = () => {
     <header className={styles.header}>
       <div className="container">
         <div className={styles.header__inner}>
-          <Link to={"/"} className={styles.header__logo}>
+          <Link to={PATHS.HOME} className={styles.header__logo}>
             <img src={Logo} alt="Приложение" />
             <span>Приложение</span>
           </Link>
