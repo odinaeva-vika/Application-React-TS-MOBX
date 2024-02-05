@@ -8,23 +8,6 @@ import NewsFilters from "../../widgets/NewsFilters";
 import NewsBanner from "../../widgets/NewsBanner";
 
 const News: FC = observer(() => {
-  /*   useEffect(() => {
-    NewsStore.getNewsAction(NewsStore.category, NewsStore.keywords);
-  }, [NewsStore.category, NewsStore.keywords]); */
-  /* useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      if (NewsStore.category !== "" || NewsStore.keywords !== "") {
-        NewsStore.getNewsAction(NewsStore.category, NewsStore.keywords);
-      }
-    }, 1000);
-
-    return () => clearTimeout(timeoutId);
-  }, [NewsStore.category, NewsStore.keywords]); */
-
-  /* useEffect(() => {
-      NewsStore.getNewsAction(NewsStore.category, NewsStore.keywords);
-    }, [NewsStore.category, NewsStore.keywords]); */
-
   useEffect(() => {
     if (NewsStore.category !== "" || NewsStore.keywords !== "") {
       const timeoutId = setTimeout(() => {

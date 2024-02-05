@@ -1,6 +1,6 @@
 export const PATHS = {
-  HOME: "/",
-  ROLES: "/roles",
-  NEWS: "/news",
-  FAVORITE: "/favorite",
+  HOME: "Application-React-TS-MOBX/",
+  ROLES: "Application-React-TS-MOBX/roles",
+  NEWS: "Application-React-TS-MOBX/news",
+  FAVORITE: "Application-React-TS-MOBX/favorite",
 };
