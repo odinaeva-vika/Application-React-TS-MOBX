@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.main {
+  margin-top: 100px;
+  padding-bottom: 30px;
+  flex-grow: 1;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 192px auto;
+    gap: 20px;
+
+    @media (max-width: 630px) {
+      grid-template-columns: auto auto;
+    }
+  }
+}
+
+.stop-scroll {
+  overflow: hidden;
+}

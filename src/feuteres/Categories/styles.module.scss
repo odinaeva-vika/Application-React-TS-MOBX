@@ -1,0 +1,32 @@
+.categories {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.category__btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 11px;
+  transition: all 0.3s ease-in;
+  border: 1px solid #4e8ff5;
+  color: #4e8ff5;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+.category__btn:hover {
+  color: #ffffff;
+  background-color: #337ae8;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #4e8ff5;
+}
